@@ -9,6 +9,7 @@ namespace ShopOnline.WEB.Pages
         [Inject]
         public IProductService ProductService { get; set; }
         public IEnumerable<ProductDto> Products { get; set; }
+        public string ErrorMessage { get; set; }
 
         protected override async Task OnInitializedAsync()
         {
