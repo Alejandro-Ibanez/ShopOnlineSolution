@@ -4,7 +4,7 @@ using ShopOnline.WEB.Services.Contract;
 
 namespace ShopOnline.WEB.Pages
 {
-    public class ProductBase : ComponentBase
+    public class ProductsBase : ComponentBase
     {
         [Inject]
         public IProductService ProductService { get; set; }
